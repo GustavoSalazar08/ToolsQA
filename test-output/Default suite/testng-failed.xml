@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="bookstore.BookStore">
+        <methods>
+          <include name="LogoutTest"/>
+          <include name="DeleteAccountTest"/>
+          <include name="deleteBooksTest"/>
+          <include name="FinishDriver"/>
+          <include name="LoginTest"/>
+          <include name="StartDriver"/>
+          <include name="RegisterTest"/>
+          <include name="AddBooksTest"/>
+        </methods>
+      </class> <!-- bookstore.BookStore -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
